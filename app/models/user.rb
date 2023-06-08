@@ -1,3 +1,3 @@
-class Pet < ActiveRecord::Base
-    belongs_to :user
+class User < ActiveRecord::Base
+    has_many :pets
 end
